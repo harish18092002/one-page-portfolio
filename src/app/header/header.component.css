@@ -1,0 +1,63 @@
+.main {
+    height: auto;
+    width: auto;
+    background-color: #1E1E1E;
+    display: flex;
+    /* align-items: center; */
+    padding: 13px 20px;
+    justify-content: space-between;
+}
+
+.logo {
+    /* padding-left: 1rem;
+    padding-top: 1rem; */
+}
+
+.nav {
+    /* padding-top: 1.6rem;
+    margin-left: 34rem; */
+    padding-right: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+    font-family: Syne;
+    font-weight: 400;
+    font-size: larger;
+}
+
+#home.active {
+    color: #A6A001;
+}
+
+#services.active {
+    color: #A6A001;
+}
+
+#skills.active {
+    color: #A6A001;
+}
+
+#achievements.active {
+    color: #A6A001;
+}
+
+#contact.active {
+    color: #A6A001;
+}
+
+@media screen and (min-width: 829px) {
+    .nav {
+        display: flex;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    .nav a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    /* Add any additional styles for larger screens here */
+}
