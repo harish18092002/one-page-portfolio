@@ -1,0 +1,38 @@
+.main {
+    height: auto;
+    width: auto;
+    background-color: #1E1E1E;
+    display: flex;
+
+    padding: 13px 20px;
+    justify-content: space-between;
+}
+
+.nav {
+    padding-right: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+    font-family: Syne;
+    font-weight: 400;
+    font-size: larger;
+}
+
+a.active {
+    color: #A6A001 !important;
+}
+
+@media screen and (min-width: 829px) {
+    .nav {
+        display: flex;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    .nav a {
+        text-decoration: none;
+        color: #fff;
+    }
+}

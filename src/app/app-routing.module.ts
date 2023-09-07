@@ -18,7 +18,7 @@ const routes: Routes = [{
     { path: 'services', component: ServicesComponent },
     { path: 'achievements', component: CertificationComponent },
     { path: 'contact', component: ContactComponent },
-    { path: '**', redirectTo: 'header' }
+    { path: '**', redirectTo: 'home' }
 
   ]
 }
