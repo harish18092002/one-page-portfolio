@@ -2,8 +2,8 @@
     height: auto;
     width: auto;
     background-color: #1E1E1E;
+    align-items: center;
     display: flex;
-
     padding: 13px 20px;
     justify-content: space-between;
 }
