@@ -1,0 +1,13 @@
+body {
+    background-color: #131011;
+}
+
+.main1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 9rem;
+    color: #FFF;
+    font-family: Syne;
+    font-style: normal;
+    font-weight: 400;
+}
