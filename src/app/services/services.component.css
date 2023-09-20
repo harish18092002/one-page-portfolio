@@ -1,0 +1,58 @@
+body {
+    background-color: #131011;
+}
+
+.main1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
+    padding-left: 5rem;
+    color: #FFF;
+    font-family: Syne;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.main2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.main3 {
+    display: flex;
+
+    flex-direction: column;
+}
+
+.submain {
+    position: relative;
+}
+
+#uncle {
+    height: calc(100vh - 80px);
+    width: auto;
+    /* position: relative; */
+    /* max-width: 80%; */
+    /* z-index: 3; */
+    /* flex-shrink: 0; */
+}
+
+
+
+#p1 {
+    font-size: 24px;
+}
+
+#p2 {
+    font-size: 50px;
+}
+
+#s1 {
+    color: #A6A001;
+}
+
+#p3 {
+    font-size: 24px;
+}
