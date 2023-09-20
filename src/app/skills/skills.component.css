@@ -1,0 +1,45 @@
+.parent {
+    height: 100vh;
+    background-color: #131011;
+}
+
+.main1 {
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#skills {
+    padding-bottom: 2rem;
+    color: #A6A001;
+    font-family: ABeeZee;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 400;
+
+}
+
+.navbox {
+    display: inline-flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background: #1E1E1E;
+}
+
+.buttons {
+    display: flex;
+    gap: 2rem;
+}
+
+p {
+    color: #FFF;
+    font-family: Syne;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    cursor: pointer;
+}
