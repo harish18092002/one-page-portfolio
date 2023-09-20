@@ -15,7 +15,7 @@
     padding-bottom: 2rem;
     color: #A6A001;
     font-family: ABeeZee;
-    font-size: 40px;
+    font-size: 49px;
     font-style: italic;
     font-weight: 400;
 
@@ -23,7 +23,7 @@
 
 .navbox {
     display: inline-flex;
-    padding: 20px;
+    padding: 10px;
     justify-content: center;
     align-items: center;
     border-radius: 20px;
@@ -32,7 +32,37 @@
 
 .buttons {
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
+}
+
+button {
+    height: 2.2rem;
+    width: 7rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 10px;
+    border: #A6A001;
+    font-family: ABeeZee;
+    font-size: 18px;
+    font-weight: 200;
+
+}
+
+.images {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    justify-content: space-between;
+    width: 30rem;
+
+}
+
+.images img {
+    flex-grow: 1;
+    /* Adjust spacing between images */
+    margin: 10px;
+    /* Adjust spacing between images */
 }
 
 p {
