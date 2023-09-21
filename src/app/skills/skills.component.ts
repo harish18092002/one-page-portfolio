@@ -26,6 +26,7 @@ export class SkillsComponent {
     { name: 'Bootstrap', category: 'Front-End', src: 'https://user-images.githubusercontent.com/25181517/183898054-b3d693d4-dafb-4808-a509-bab54cf5de34.png' },
     { name: 'Tailwind CSS', category: 'Front-End', src: 'https://user-images.githubusercontent.com/25181517/202896760-337261ed-ee92-4979-84c4-d4b829c7355d.png' },
     { name: 'flutter', category: 'Front-End', src: 'https://user-images.githubusercontent.com/25181517/186150365-da1eccce-6201-487c-8649-45e9e99435fd.png' },
+    { name: 'dart', category: 'Front-End', src: 'https://user-images.githubusercontent.com/25181517/186150304-1568ffdf-4c62-4bdc-9cf1-8d8efcea7c5b.png' },
 
     // for back-end 
 
@@ -52,6 +53,7 @@ export class SkillsComponent {
     { name: 'material ui ', category: 'Tools', src: 'https://user-images.githubusercontent.com/25181517/189716630-fe6c084c-6c66-43af-aa49-64c8aea4a5c2.png' },
     { name: 'npm', category: 'Tools', src: 'https://user-images.githubusercontent.com/25181517/121401671-49102800-c959-11eb-9f6f-74d49a5e1774.png' },
     { name: 'angular', category: 'Tools', src: 'https://user-images.githubusercontent.com/25181517/183890595-779a7e64-3f43-4634-bad2-eceef4e80268.png' },
+    { name: 'Arduino', category: 'Tools', src: 'https://github.com/marwin1991/profile-technology-icons/assets/136815194/a57a85ba-e2dd-4036-85b6-7e1532391627' },
     { name: 'vuejs', category: 'Tools', src: 'https://user-images.githubusercontent.com/25181517/117448124-a2da9800-af3e-11eb-85d2-bd1b69b65603.png' },
   ];
 
