@@ -1,6 +1,7 @@
 .parent {
     height: 100vh;
     background-color: #131011;
+    position: relative;
 }
 
 .main1 {
@@ -149,14 +150,21 @@ p {
 } */
 
 .area {
-    position: relative;
+    position: absolute;
     z-index: 1;
+    bottom: 20vh;
+    left: 0;
+    width: 100%;
+
 }
 
 .circles {
     position: absolute;
-    top: 0;
-    left: 0;
+
+    left: 50%;
+    /* Center the cubes horizontally */
+    transform: translateX(-50%);
+    /* Center the cubes horizontally */
     width: 100%;
     height: 100%;
 
@@ -171,6 +179,7 @@ p {
     background: rgba(255, 255, 255, 0.2);
     animation: animate 25s linear infinite;
     bottom: -150px;
+    opacity: 0;
 
 }
 
