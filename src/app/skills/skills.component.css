@@ -70,15 +70,6 @@ button {
     /* Adjust spacing between images */
 }
 
-p {
-    color: #FFF;
-    font-family: Syne;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    cursor: pointer;
-}
-
 /* for square */
 /* .cube {
     position: absolute;
