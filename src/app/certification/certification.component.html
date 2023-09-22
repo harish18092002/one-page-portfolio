@@ -1,1 +1,12 @@
-<app-header></app-header>
+<div class="parent">
+    <div class="main">
+        <p id="heading">Achievements</p>
+        <div class="certi">
+            <div *ngFor="let certificate of certificates" class="certi-item">
+                <img [src]="certificate.imageUrl" />
+                <div class="description">{{ certificate.description }}</div>
+            </div>
+        </div>
+
+    </div>
+</div>
