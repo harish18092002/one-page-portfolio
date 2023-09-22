@@ -1,0 +1,62 @@
+.parent {
+    height: auto;
+    background-color: #131011;
+    position: relative;
+
+}
+
+.main {
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#heading {
+    color: #A6A001;
+    font-family: ABeeZee;
+    font-size: 49px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+
+.certi {
+    display: grid;
+    padding: 2rem;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-gap: 20px;
+    justify-items: center;
+    align-items: center;
+}
+
+.certi img {
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+
+}
+
+.certi-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.description {
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    height: 35%;
+    width: 100%;
+    background-color: rgba(64, 64, 64, 0.8);
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px;
+    transition: bottom 0.1s ease-in-out;
+}
+
+.certi-item:hover .description {
+    bottom: 0;
+
+}
