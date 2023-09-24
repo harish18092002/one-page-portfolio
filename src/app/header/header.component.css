@@ -8,6 +8,19 @@
     justify-content: space-between;
 }
 
+#logo {
+    background: linear-gradient(to right, #fa709a 40%, #fee140 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Seaweed Script', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    color: #FFFFFF;
+    width: 3rem;
+    padding-left: 1rem;
+}
+
 .nav {
     padding-right: 2rem;
 }
