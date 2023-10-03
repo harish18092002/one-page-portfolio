@@ -1,29 +1,28 @@
 body {
     background-color: #131011;
-    height: 50vh;
-    /* padding: 10%; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    height: 105vh;
+    position: relative;
 }
 
 .parent {
+    margin-left: 5%;
     z-index: 8;
-    height: 95%;
-    width: 98%;
+    height: 88%;
+    width: 90%;
     background-color: black;
-    background-color: rgba(255, 255, 255, 0.141);
-    backdrop-filter: blur(90px);
+    background-color: rgba(255, 255, 255, 0.056);
+    backdrop-filter: blur(5px);
     border-radius: 7px;
+
 }
 
 .bgcrc {
-    margin-left: 30rem;
+    /* margin-left: 30rem; */
     position: absolute;
-    height: 14rem;
-    width: 14rem;
+    height: 10rem;
+    width: 10rem;
     background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
-    border-radius: 20rem;
+    border-radius: 10rem;
     animation: play 8s ease-in forwards infinite alternate;
 
 }
@@ -48,5 +47,77 @@ body {
 
     100% {
         transform: translateY(70%);
+    }
+}
+
+
+/* for square */
+
+.cube {
+    position: relative;
+    top: 80vh;
+    left: 45vw;
+    width: 10px;
+    height: 10px;
+    border: solid 1px #9d9d9d;
+    transform-origin: top left;
+    transform: scale(0) rotate(0deg) translate(-50%, -50%);
+    -webkit-animation: cube 12s ease-in forwards infinite;
+    animation: cube 12s ease-in forwards infinite;
+}
+
+.cube:nth-child(2n) {
+    border-color: #d6d28d;
+}
+
+.cube:nth-child(2) {
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    left: 17vw;
+    top: 40vh;
+}
+
+.cube:nth-child(3) {
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s;
+    left: 80vw;
+    top: 50vh;
+}
+
+.cube:nth-child(4) {
+    -webkit-animation-delay: 6s;
+    animation-delay: 6s;
+    left: 90vw;
+    top: 10vh;
+}
+
+.cube:nth-child(5) {
+    -webkit-animation-delay: 8s;
+    animation-delay: 8s;
+    left: 10vw;
+    top: 85vh;
+}
+
+@-webkit-keyframes cube {
+    from {
+        transform: scale(0) rotate(0deg) translate(-50%, -50%);
+        opacity: 1;
+    }
+
+    to {
+        transform: scale(20) rotate(960deg) translate(-50%, -50%);
+        opacity: 0;
+    }
+}
+
+@keyframes cube {
+    from {
+        transform: scale(0) rotate(0deg) translate(-50%, -50%);
+        opacity: 1;
+    }
+
+    to {
+        transform: scale(20) rotate(960deg) translate(-50%, -50%);
+        opacity: 0;
     }
 }
