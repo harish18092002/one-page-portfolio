@@ -51,7 +51,8 @@ body {
 }
 
 #p3 {
-    font-size: 24px;
+    font-size: 22px;
+    line-height: 2rem;
 }
 
 #resume {
@@ -78,6 +79,19 @@ body {
 
 #icons {
     display: flex;
-    gap: 1rem;
+    gap: 1.5rem;
     margin-top: 2rem;
+    filter: invert(1);
+}
+
+#icons,
+a,
+img {
+    height: 1.3rem;
+}
+
+#down {
+    filter: invert(1);
+    height: 1.2rem;
+    padding-left: 1rem;
 }
