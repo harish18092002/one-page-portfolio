@@ -1,67 +1,30 @@
 body {
     background-color: #131011;
-    height: 105vh;
+    height: 60vh;
     position: relative;
 }
 
+/* 
 .parent {
 
-    margin-left: 5%;
     z-index: 8;
-    height: 88%;
-    width: 90%;
-    background-color: black;
+    height: 100%;
+    width: 100%;
     background-color: #ffffff0e;
     backdrop-filter: blur(5px);
-    border-radius: 7px;
     display: grid;
     justify-content: center;
     align-items: center;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     grid-gap: 20px;
 
-}
-
-.bgcrc {
-    /* margin-left: 30rem; */
-    position: absolute;
-    height: 10rem;
-    width: 10rem;
-    background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
-    border-radius: 10rem;
-    animation: play 8s ease-in forwards infinite alternate;
-
-}
-
-@keyframes play {
-    0% {
-        transform: translateX(0);
-    }
-
-    25% {
-        transform: translateX(100%);
-    }
-
-    50% {
-        transform: translateY(100%);
-    }
-
-
-    75% {
-        transform: translateX(0%);
-    }
-
-    100% {
-        transform: translateY(70%);
-    }
-}
-
+} */
 
 /* for square */
 
 .cube {
     position: relative;
-    top: 80vh;
+    top: 40vh;
     left: 45vw;
     width: 10px;
     height: 10px;
@@ -101,7 +64,7 @@ body {
     -webkit-animation-delay: 8s;
     animation-delay: 8s;
     left: 10vw;
-    top: 85vh;
+    top: 55vh;
 }
 
 @-webkit-keyframes cube {

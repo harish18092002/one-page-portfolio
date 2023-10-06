@@ -2,6 +2,7 @@
     height: auto;
     width: auto;
     background-color: #1E1E1E;
+    backdrop-filter: blur(5px);
     align-items: center;
     display: flex;
     padding: 13px 20px;
