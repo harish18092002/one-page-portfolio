@@ -1,30 +1,50 @@
 body {
     background-color: #131011;
-    height: 60vh;
+    height: 50vh;
     position: relative;
 }
 
-/* 
+
 .parent {
-
     z-index: 8;
-    height: 100%;
+    height: 90%;
     width: 100%;
-    background-color: #ffffff0e;
+    background-color: #3d3d3d3c;
     backdrop-filter: blur(5px);
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-    grid-gap: 20px;
 
-} */
+}
+
+.headings {
+    display: flex;
+    justify-content: center;
+}
+
+.main1 {
+    font-size: 1.3rem;
+    font-family: cursive;
+    color: #FFF;
+    padding-top: 2%;
+    padding-left: 5%;
+}
+
+.policy {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    /* margin-top: 0.5rem;
+    margin-left: 56rem; */
+    color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 8%;
+    right: 4%;
+}
 
 /* for square */
 
 .cube {
     position: relative;
-    top: 40vh;
+    top: 30vh;
     left: 45vw;
     width: 10px;
     height: 10px;
@@ -43,29 +63,24 @@ body {
     -webkit-animation-delay: 2s;
     animation-delay: 2s;
     left: 17vw;
-    top: 40vh;
+    top: 20vh;
 }
 
 .cube:nth-child(3) {
     -webkit-animation-delay: 4s;
     animation-delay: 4s;
     left: 80vw;
-    top: 50vh;
+    top: 25vh;
 }
 
 .cube:nth-child(4) {
     -webkit-animation-delay: 6s;
     animation-delay: 6s;
-    left: 90vw;
+    left: 87vw;
     top: 10vh;
 }
 
-.cube:nth-child(5) {
-    -webkit-animation-delay: 8s;
-    animation-delay: 8s;
-    left: 10vw;
-    top: 55vh;
-}
+
 
 @-webkit-keyframes cube {
     from {
@@ -89,4 +104,31 @@ body {
         transform: scale(20) rotate(960deg) translate(-50%, -50%);
         opacity: 0;
     }
+}
+
+
+
+#no,
+#mp {
+    font-size: 1.3rem;
+    color: #FFF;
+    text-decoration: none;
+}
+
+
+#headn,
+#heade,
+#heads {
+    font-family: cursive;
+    margin-top: 1.3rem;
+    color: rgb(96, 246, 248);
+
+    font-size: 1.5rem;
+}
+
+#icons {
+    margin-top: 0.5rem;
+    display: flex;
+    gap: 2rem;
+    filter: invert(1);
 }
