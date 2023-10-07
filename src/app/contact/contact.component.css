@@ -17,14 +17,20 @@ body {
 .headings {
     display: flex;
     justify-content: center;
+    margin-top: 1.5rem;
 }
 
 .main1 {
-    font-size: 1.3rem;
-    font-family: cursive;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: ABeeZee;
+
     color: #FFF;
     padding-top: 2%;
     padding-left: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
 .policy {
@@ -44,8 +50,8 @@ body {
 
 .cube {
     position: relative;
-    top: 30vh;
-    left: 45vw;
+    top: 35vh;
+    left: 70vw;
     width: 10px;
     height: 10px;
     border: solid 1px #9d9d9d;
@@ -66,7 +72,7 @@ body {
     top: 20vh;
 }
 
-.cube:nth-child(3) {
+/* .cube:nth-child(3) {
     -webkit-animation-delay: 4s;
     animation-delay: 4s;
     left: 80vw;
@@ -78,7 +84,7 @@ body {
     animation-delay: 6s;
     left: 87vw;
     top: 10vh;
-}
+} */
 
 
 
@@ -119,10 +125,12 @@ body {
 #headn,
 #heade,
 #heads {
-    font-family: cursive;
+    font-weight: 400;
+    font-family: ABeeZee;
+    font-style: italic;
     margin-top: 1.3rem;
-    color: rgb(96, 246, 248);
-
+    color: #A6A001;
+    margin-bottom: 0.7rem;
     font-size: 1.5rem;
 }
 
@@ -131,4 +139,10 @@ body {
     display: flex;
     gap: 2rem;
     filter: invert(1);
+}
+
+#icons,
+a,
+img {
+    height: 1.5rem;
 }
