@@ -43,21 +43,9 @@
     overflow: hidden;
 }
 
-.description {
-    position: absolute;
-    bottom: -100%;
-    left: 0;
-    height: 35%;
-    width: 100%;
-    background-color: rgba(64, 64, 64, 0.8);
-    border-radius: 10px;
-    color: #fff;
-    padding: 10px;
-    transition: bottom 0.1s ease-in-out;
-}
-
-.certi-item:hover .description {
-    bottom: 0;
+.certi-item:hover {
+    transition: transform 0.4s;
+    transform: scale(1.1);
 
 }
 
