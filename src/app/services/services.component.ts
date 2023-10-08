@@ -31,7 +31,7 @@ export class ServicesComponent {
     {
       title: 'Project 4',
       imageUrl: '../../assets/Projects/potfolio.png',
-      description: 'Description for Project 4',
+      description: 'Hosted on Firebase, my portfolio website showcases my skills and features my resume, providing a dynamic online presence to highlight my expertise and experiences.',
       link: 'https://portfolio18092002.web.app/home',
       technologies: 'Angular,Firebase,NodeJs'
     },
