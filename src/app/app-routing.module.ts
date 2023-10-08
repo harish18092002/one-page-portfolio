@@ -7,6 +7,7 @@ import { SkillsComponent } from './skills/skills.component';
 import { ServicesComponent } from './services/services.component';
 import { CertificationComponent } from './certification/certification.component';
 import { ContactComponent } from './contact/contact.component';
+import { TimelineComponent } from './timeline/timeline.component';
 
 const routes: Routes = [{
   path: '',
@@ -18,6 +19,7 @@ const routes: Routes = [{
     { path: 'services', component: ServicesComponent },
     { path: 'achievements', component: CertificationComponent },
     { path: 'contact', component: ContactComponent },
+    { path: 'timeline', component: TimelineComponent },
     { path: '**', redirectTo: 'home' }
 
   ]
