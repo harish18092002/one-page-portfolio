@@ -47,7 +47,7 @@
     position: absolute;
     bottom: -100%;
     left: 0;
-    height: 50%;
+    height: 90%;
     width: 100%;
     background-color: rgba(64, 64, 64, 0.8);
     border-radius: 10px;
@@ -72,5 +72,14 @@
 
 .certi-item:hover .description {
     bottom: 0;
+
+}
+
+#more {
+    border-radius: 5px;
+    background-color: #e1da13;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
 
 }

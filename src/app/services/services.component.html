@@ -3,12 +3,12 @@
         <p id="heading">Projects</p>
         <div class="certi">
             <div *ngFor="let certificate of projects" class="certi-item">
-                <a [href]="certificate.link">
-                    <img [src]="certificate.imageUrl" /></a>
+
+                <img [src]="certificate.imageUrl" />
                 <div class="description">
-                    <!-- {{ certificate.description }}</div> -->
                     <span id="subhead">Technologies : </span><span id="desc">{{certificate.technologies}}</span><br>
-                    <span id="subhead">About : </span><span id="desc">{{certificate.description}}</span>
+                    <span id="subhead">About : </span><span id="desc">{{certificate.description}}</span><br>
+                    <a [href]="certificate.link" id="more">Know more</a>
                 </div>
             </div>
         </div>
