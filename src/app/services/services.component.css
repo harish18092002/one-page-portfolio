@@ -29,6 +29,7 @@
     grid-gap: 20px;
     justify-items: center;
     align-items: center;
+
 }
 
 .certi img {
@@ -54,6 +55,9 @@
     color: #fff;
     padding: 10px;
     transition: bottom 0.1s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #subhead {
@@ -67,7 +71,7 @@
 #desc {
     font-size: 15px;
     font-weight: 10px;
-    padding: 12px;
+    /* padding: 12px; */
 }
 
 .certi-item:hover .description {
@@ -76,10 +80,21 @@
 }
 
 #more {
-    border-radius: 5px;
-    background-color: #e1da13;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background: #A6A001;
     text-align: center;
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    width: 37%;
+    height: 10%;
+    font-weight: 650;
+    height: 1.5rem;
+    /* border: 3px solid#1E1E1E; */
+}
 
+#more:hover {
+    box-shadow: 2px 2px 8px #000000;
 }
