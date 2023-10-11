@@ -8,6 +8,7 @@ body {
     justify-content: space-around;
     gap: 5rem;
     padding-left: 7rem;
+    /* padding-top: 5rem; */
     color: #FFF;
     font-family: Syne;
     font-style: normal;
@@ -21,19 +22,10 @@ body {
 
 }
 
-/* .main3 {
-    display: flex;
-
-    flex-direction: column;
-}
-
-.submain {
-    position: relative;
-} */
 
 #uncle {
-    height: calc(100vh - 80px);
-    width: 94%;
+    height: 100vh;
+    width: 90%;
 }
 
 
