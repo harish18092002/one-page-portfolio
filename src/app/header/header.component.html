@@ -8,13 +8,19 @@
             <p id="logo">H</p>
         </div>
         <div class="nav">
-            <a routerLink="/home" routerLinkActive="active" id="home">Home</a>
-            <a routerLink="/skills" routerLinkActive="active" id="skills">Skills</a>
-            <a routerLink="/services" routerLinkActive="active" id="services">Projects</a>
-            <a routerLink="/achievements" routerLinkActive="active" id="achievements">Achievements</a>
-            <a routerLink="/timeline" routerLinkActive="active" id="timeline">Timeline</a>
-            <a routerLink="/contact" routerLinkActive="active" id="contact">Contact</a>
+
+            <a (click)="scrollToSection('home')">Home</a>
+            <a (click)="scrollToSection('skills')">Skills</a>
+            <a (click)="scrollToSection('services')">Projects</a>
+            <a (click)="scrollToSection('timeline')">Timeline</a>
+            <a (click)="scrollToSection('achievements')">Achievements</a>
+            <a (click)="scrollToSection('contact')">Contact</a>
+
+
 
         </div>
+
     </div>
+
+
 </body>
