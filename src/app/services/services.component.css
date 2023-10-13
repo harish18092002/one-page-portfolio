@@ -48,19 +48,21 @@
     position: absolute;
     bottom: -100%;
     left: 0;
-    height: 90%;
+    height: 100%;
     width: 100%;
     background-color: rgba(64, 64, 64, 0.8);
     border-radius: 10px;
     color: #fff;
-    padding: 10px;
     transition: bottom 0.1s ease-in-out;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 0.4rem;
+    /* text-align: left; */
 }
 
 #subhead {
+    padding-left: 0.5rem;
     color: #e1da13;
     font-family: ABeeZee;
     font-size: 17px;
@@ -69,6 +71,8 @@
 }
 
 #desc {
+    padding-right: 0.8rem;
+    padding-left: 0.5rem;
     font-size: 15px;
     font-weight: 10px;
     /* padding: 12px; */
@@ -80,6 +84,7 @@
 }
 
 #more {
+    margin-left: 0.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
