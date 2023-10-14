@@ -43,6 +43,8 @@ a:hover {
     color: #fee140 !important;
 }
 
+
+
 @media screen and (min-width: 829px) {
     .nav {
         display: flex;
