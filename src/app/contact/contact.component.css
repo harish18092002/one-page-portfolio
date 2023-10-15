@@ -1,6 +1,7 @@
 body {
     background-color: #131011;
     height: 35vh;
+    width: 100%;
     position: relative;
 }
 
@@ -137,4 +138,101 @@ body {
 a,
 img {
     height: 1.5rem;
+}
+
+@media screen and (max-width: 1195px) {
+    .parent {
+        padding-top: 5%;
+        padding-bottom: 8%;
+    }
+
+    body {
+        height: auto;
+    }
+
+    .main1 {
+        gap: 0;
+    }
+
+    .headings {
+        margin-top: 1.5rem;
+    }
+
+    #p1 {
+        font-size: 1.5rem;
+
+    }
+
+    #p2 {
+        font-size: 1.3rem;
+
+    }
+
+    #headn,
+    #heade,
+    #heads {
+        font-weight: 300;
+        margin-top: 0.2rem;
+        margin-bottom: 0.5rem;
+        font-size: 1.3rem;
+    }
+
+    #no,
+    #mp {
+        font-size: 1.3rem;
+    }
+
+    #icons,
+    a,
+    img {
+        height: 1.2rem;
+        /* margin-bottom: 2rem; */
+    }
+}
+
+@media screen and (max-width: 750px) {
+    body {
+        height: auto;
+    }
+
+    .main1 {
+        gap: 0;
+    }
+
+    .headings {
+        padding-left: 5%;
+        margin-top: 1.5rem;
+        display: block;
+    }
+
+    #p1 {
+        font-size: 1.5rem;
+
+    }
+
+    #p2 {
+        font-size: 1.3rem;
+
+    }
+
+    #headn,
+    #heade,
+    #heads {
+        font-weight: 300;
+        margin-top: 0.2rem;
+        margin-bottom: 0.5rem;
+        font-size: 1.3rem;
+    }
+
+    #no,
+    #mp {
+        font-size: 1.3rem;
+    }
+
+    #icons,
+    a,
+    img {
+        height: 1.2rem;
+        /* margin-bottom: 2rem; */
+    }
 }

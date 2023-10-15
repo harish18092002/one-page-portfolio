@@ -1,62 +1,64 @@
-<div class="parent">
-    <div class="main1">
-        <p id="skills">Skills</p>
-        <div class="navbox">
-            <div class="buttons">
-                <button (click)="filterImages('All')"
-                    [ngStyle]="{'background-color': selectedCategory === 'All' ? '#A6A001' : '#1E1E1E', 'color': selectedCategory === 'All' ? 'black' : 'white'}">
-                    All
-                </button>
-                <button (click)="filterImages('Languages')"
-                    [ngStyle]="{'background-color': selectedCategory === 'Languages' ? '#A6A001' : '#1E1E1E', 'color': selectedCategory === 'Languages' ? 'black' : 'white'}">
-                    Languages
-                </button>
-                <button (click)="filterImages('Front-End')"
-                    [ngStyle]="{'background-color': selectedCategory === 'Front-End' ? '#A6A001' : '#1E1E1E', 'color': selectedCategory === 'Front-End' ? 'black' : 'white'}">
-                    Front-End
-                </button>
-                <button (click)="filterImages('Back-End')"
-                    [ngStyle]="{'background-color': selectedCategory === 'Back-End' ? '#A6A001' : '#1E1E1E', 'color': selectedCategory === 'Back-End' ? 'black' : 'white'}">
-                    Back-End
-                </button>
-                <button (click)="filterImages('Database')"
-                    [ngStyle]="{'background-color': selectedCategory === 'Database' ? '#A6A001' : '#1E1E1E', 'color': selectedCategory === 'Database' ? 'black' : 'white'}">
-                    Database
-                </button>
-                <button (click)="filterImages('Tools')"
-                    [ngStyle]="{'background-color': selectedCategory === 'Tools' ? '#A6A001' : '#1E1E1E', 'color': selectedCategory === 'Tools' ? 'black' : 'white'}">
-                    Tools
-                </button>
+<body>
+    <div class="parent">
+        <div class="main1">
+            <p id="skills">Skills</p>
+            <div class="navbox">
+                <div class="buttons">
+                    <button (click)="filterImages('All')"
+                        [ngStyle]="{'background-color': selectedCategory === 'All' ? '#A6A001' : '#1E1E1E', 'color': selectedCategory === 'All' ? 'black' : 'white'}">
+                        All
+                    </button>
+                    <button (click)="filterImages('Languages')"
+                        [ngStyle]="{'background-color': selectedCategory === 'Languages' ? '#A6A001' : '#1E1E1E', 'color': selectedCategory === 'Languages' ? 'black' : 'white'}">
+                        Languages
+                    </button>
+                    <button (click)="filterImages('Front-End')"
+                        [ngStyle]="{'background-color': selectedCategory === 'Front-End' ? '#A6A001' : '#1E1E1E', 'color': selectedCategory === 'Front-End' ? 'black' : 'white'}">
+                        Front-End
+                    </button>
+                    <button (click)="filterImages('Back-End')"
+                        [ngStyle]="{'background-color': selectedCategory === 'Back-End' ? '#A6A001' : '#1E1E1E', 'color': selectedCategory === 'Back-End' ? 'black' : 'white'}">
+                        Back-End
+                    </button>
+                    <button (click)="filterImages('Database')"
+                        [ngStyle]="{'background-color': selectedCategory === 'Database' ? '#A6A001' : '#1E1E1E', 'color': selectedCategory === 'Database' ? 'black' : 'white'}">
+                        Database
+                    </button>
+                    <button (click)="filterImages('Tools')"
+                        [ngStyle]="{'background-color': selectedCategory === 'Tools' ? '#A6A001' : '#1E1E1E', 'color': selectedCategory === 'Tools' ? 'black' : 'white'}">
+                        Tools
+                    </button>
+                </div>
+
+
+
+
+            </div>
+            <div class="images">
+                <div *ngFor="let image of images">
+                    <!-- Display the image if the selected category is 'All' or matches the image's category -->
+                    <img [src]="image.src" alt="" [style.width.px]="60"
+                        *ngIf="selectedCategory === 'All' || selectedCategory === image.category">
+                </div>
             </div>
 
 
 
 
         </div>
-        <div class="images">
-            <div *ngFor="let image of images">
-                <!-- Display the image if the selected category is 'All' or matches the image's category -->
-                <img [src]="image.src" alt="" [style.width.px]="60"
-                    *ngIf="selectedCategory === 'All' || selectedCategory === image.category">
-            </div>
+        <div class="area">
+            <ul class="circles">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
         </div>
-
-
-
-
     </div>
-    <div class="area">
-        <ul class="circles">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
-    </div>
-</div>
+</body>

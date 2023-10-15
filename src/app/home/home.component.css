@@ -91,6 +91,8 @@ img {
 @media screen and (max-width: 1195px) {
     .main1 {
         margin-top: 10rem;
+        grid-template-columns: repeat(auto-fill, minmax(390px, 1fr));
+        padding-left: 4%;
     }
 
     #p1 {
@@ -98,15 +100,16 @@ img {
     }
 
     #p2 {
-        font-size: 45px;
+        font-size: 38px;
     }
 
     #s1 {
+        font-size: 38px;
         color: #A6A001;
     }
 
     #p3 {
-        font-size: 22.5px;
+        font-size: 20px;
         line-height: 2rem;
     }
 
