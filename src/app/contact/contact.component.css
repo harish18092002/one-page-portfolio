@@ -3,6 +3,7 @@ body {
     height: 35vh;
     width: 100%;
     position: relative;
+
 }
 
 
@@ -48,8 +49,8 @@ body {
     font-size: 18px;
     color: rgb(255, 255, 255);
     position: absolute;
-    bottom: 8%;
-    right: 4%;
+    bottom: 2%;
+    right: 1%;
 }
 
 /* for square */
@@ -124,6 +125,7 @@ body {
     margin-top: 0.3rem;
     color: #A6A001;
     margin-bottom: 0.7rem;
+    text-decoration: none;
     font-size: 1.5rem;
 }
 
@@ -142,8 +144,8 @@ img {
 
 @media screen and (max-width: 1195px) {
     .parent {
-        padding-top: 5%;
-        padding-bottom: 8%;
+        padding-top: 3%;
+        padding-bottom: 5%;
     }
 
     body {
@@ -156,6 +158,7 @@ img {
 
     .headings {
         margin-top: 1.5rem;
+        margin-bottom: 20px;
     }
 
     #p1 {
@@ -174,7 +177,7 @@ img {
         font-weight: 300;
         margin-top: 0.2rem;
         margin-bottom: 0.5rem;
-        font-size: 1.3rem;
+        font-size: 1.5rem;
     }
 
     #no,
@@ -193,6 +196,7 @@ img {
 @media screen and (max-width: 750px) {
     body {
         height: auto;
+        width: 100%;
     }
 
     .main1 {
@@ -234,5 +238,13 @@ img {
     img {
         height: 1.2rem;
         /* margin-bottom: 2rem; */
+    }
+
+    .policy {
+        bottom: 2%;
+        right: 5%;
+        top: 95%;
+        font-weight: 350;
+        font-size: 15px;
     }
 }
