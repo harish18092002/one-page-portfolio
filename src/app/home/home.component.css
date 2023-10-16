@@ -77,10 +77,23 @@ body {
     filter: invert(1);
 }
 
+#git:hover {
+    transform: scale(1.5);
+}
+
+@keyframes rotateIcons {
+    from {}
+
+    /* to {
+        transform: rotate(-45deg);
+    } */
+}
+
 #icons,
 a,
 img {
     height: 1.3rem;
+
 }
 
 #down {

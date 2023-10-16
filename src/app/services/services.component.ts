@@ -37,7 +37,7 @@ export class ServicesComponent {
     },
 
     {
-      title: 'Project 4',
+      title: 'Project 5',
       imageUrl: '../../assets/Projects/emids.png',
       description: " I've developed a secure healthcare admin site, enabling doctors and nurses to efficiently manage patient records",
       link: 'https://portfolio18092002.web.app/home',
