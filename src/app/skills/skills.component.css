@@ -26,6 +26,7 @@ body {
     font-family: ABeeZee;
     font-size: 49px;
     font-style: italic;
+    font-size: 49px;
     font-weight: 400;
 
 }
@@ -50,7 +51,9 @@ button {
     text-align: center;
     border-radius: 10px;
     border: #A6A001;
+    /* font-family: 'Seaweed Script', cursive; */
     font-family: ABeeZee;
+    font-style: italic;
     font-size: 18px;
     font-weight: 200;
     cursor: pointer;

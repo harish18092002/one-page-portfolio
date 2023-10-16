@@ -36,6 +36,7 @@ body {
 
 #p2 {
     font-size: 50px;
+
 }
 
 #s1 {
@@ -60,7 +61,7 @@ body {
     justify-content: center;
     color: #FFF;
     font-size: 20px;
-    font-family: Poppins;
+    font-family: 'Nothing You Could Do', cursive;
     line-height: 35px;
     text-decoration: none;
 }
