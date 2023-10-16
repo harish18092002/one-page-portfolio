@@ -32,9 +32,17 @@ export class ServicesComponent {
       title: 'Project 4',
       imageUrl: '../../assets/Projects/potfolio.png',
       description: 'Hosted on Firebase, my portfolio website showcases my skills and features my resume, providing a dynamic online presence to highlight my expertise and experiences.',
-      link: 'https://portfolio18092002.web.app/home',
+      link: 'https://github.com/harish18092002/Healthcare-Hackathon.git',
       technologies: 'Angular,Firebase,NodeJs'
     },
+
+    {
+      title: 'Project 4',
+      imageUrl: '../../assets/Projects/emids.png',
+      description: " I've developed a secure healthcare admin site, enabling doctors and nurses to efficiently manage patient records",
+      link: 'https://portfolio18092002.web.app/home',
+      technologies: 'Angular,Uuid,NodeJs'
+    }
 
 
   ];
