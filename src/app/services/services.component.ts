@@ -10,7 +10,7 @@ export class ServicesComponent {
     {
       title: 'Project 1',
       imageUrl: '../../assets/Projects/Screenshot 2023-09-24 193528.png',
-      description: 'An Angular-powered Customer Contact Management System, offering secure login with UUID and efficient contact storage via local storage, with seamless pagination for enhanced usability',
+      description: 'An Angular-powered Customer Management System, offering secure login with UUID and efficient contact storage, with seamless pagination',
       technologies: 'Angular,Firebase',
       link: 'https://github.com/harish18092002/Network.git'
     },

@@ -47,15 +47,13 @@ body {
 button {
     height: 2.2rem;
     width: 7rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    text-align: center;
     border-radius: 10px;
     border: #A6A001;
     font-family: ABeeZee;
     font-size: 18px;
     font-weight: 200;
     cursor: pointer;
-    gap: 20px;
 
 }
 
@@ -218,9 +216,9 @@ button {
         width: 15vw;
         border-radius: 10px;
         font-size: 12px;
-        font-weight: 100;
+        font-weight: 90;
         cursor: pointer;
-        gap: 7px;
+        /* gap: 7px; */
 
     }
 
