@@ -13,6 +13,7 @@ body {
     font-family: Syne;
     font-style: normal;
     font-weight: 400;
+
 }
 
 .main2 {
@@ -32,20 +33,24 @@ body {
 
 #p1 {
     font-size: 24px;
+    font-family: 'Simonetta', serif;
 }
 
 #p2 {
     font-size: 50px;
+    font-family: 'Simonetta', serif;
 
 }
 
 #s1 {
     color: #A6A001;
+    font-family: 'Simonetta', serif;
 }
 
 #p3 {
     font-size: 22px;
     line-height: 2rem;
+    font-family: 'Simonetta', serif;
 }
 
 #resume {

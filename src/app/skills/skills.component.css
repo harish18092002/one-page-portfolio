@@ -23,7 +23,8 @@ body {
 #skills {
     padding-bottom: 2rem;
     color: #A6A001;
-    font-family: ABeeZee;
+    /* font-family: 'Seaweed Script', cursive; */
+    font-family: 'Nothing You Could Do', cursive;
     font-size: 49px;
     font-style: italic;
     font-size: 49px;
@@ -52,7 +53,8 @@ button {
     border-radius: 10px;
     border: #A6A001;
     /* font-family: 'Seaweed Script', cursive; */
-    font-family: ABeeZee;
+    /* font-family: 'Simonetta', serif; */
+    font-family: 'Simonetta', serif;
     font-style: italic;
     font-size: 18px;
     font-weight: 200;

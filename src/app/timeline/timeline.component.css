@@ -22,11 +22,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 #heading {
     color: #A6A001;
-    font-family: 'Seaweed Script', cursive;
+    /* font-family: 'Seaweed Script', cursive; */
+    font-family: 'Nothing You Could Do', cursive;
     font-size: 49px;
     font-weight: 400;
     text-align: center;
