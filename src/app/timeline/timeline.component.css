@@ -27,7 +27,6 @@ body {
 
 #heading {
     color: #A6A001;
-    /* font-family: 'Seaweed Script', cursive; */
     font-family: 'Nothing You Could Do', cursive;
     font-size: 49px;
     font-weight: 400;
@@ -40,7 +39,6 @@ body {
     background-color: #131011;
     color: #fff;
     padding: 30px 20px;
-    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, .5); */
 }
 
 .timeline ul {
@@ -106,7 +104,7 @@ body {
     }
 
     .timeline ul li .content h3 {
-        color: #34ace0;
+        color: #A6A001;
         font-size: 15px;
     }
 

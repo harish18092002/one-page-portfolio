@@ -48,6 +48,12 @@ a:hover {
     color: #fee140 !important;
 }
 
+@media screen and (min-width: 110px) and (max-width: 420px) {
+    .main {
+        width: 100%;
+    }
+}
+
 @media only screen and (max-width: 828px) {
     .nav {
         display: none;

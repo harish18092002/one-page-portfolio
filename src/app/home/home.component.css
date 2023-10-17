@@ -86,13 +86,6 @@ body {
     transform: scale(1.5);
 }
 
-@keyframes rotateIcons {
-    from {}
-
-    /* to {
-        transform: rotate(-45deg);
-    } */
-}
 
 #icons,
 a,
@@ -106,6 +99,45 @@ img {
     height: 1.2rem;
     padding-left: 1rem;
 }
+
+/* 
+@media screen and (min-width: 110px) and (max-width: 420px) {
+
+    .main1 {
+        width: 100vw;
+        margin-top: 10rem;
+        grid-template-columns: repeat(auto-fill, minmax(390px, 1fr));
+        margin-left: 8%;
+        place-content: center;
+    }
+
+    #p1 {
+        text-align: center;
+        font-size: 17px !important;
+    }
+
+    #p2 {
+        text-align: center;
+        font-size: 28px !important;
+    }
+
+    #s1 {
+        text-align: center;
+        font-size: 28px !important;
+        color: #A6A001;
+    }
+
+    #p3 {
+        text-align: center;
+        font-size: 17px !important;
+        line-height: 1rem;
+    }
+
+    #uncle {
+        height: 80%;
+        width: 80%;
+    }
+} */
 
 @media screen and (max-width: 1195px) {
     .main1 {
