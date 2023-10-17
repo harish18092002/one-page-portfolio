@@ -100,35 +100,30 @@ img {
     padding-left: 1rem;
 }
 
-/* 
-@media screen and (min-width: 110px) and (max-width: 420px) {
+
+@media (max-width:320px) {
 
     .main1 {
         width: 100vw;
         margin-top: 10rem;
         grid-template-columns: repeat(auto-fill, minmax(390px, 1fr));
         margin-left: 8%;
-        place-content: center;
     }
 
     #p1 {
-        text-align: center;
         font-size: 17px !important;
     }
 
     #p2 {
-        text-align: center;
         font-size: 28px !important;
     }
 
     #s1 {
-        text-align: center;
         font-size: 28px !important;
         color: #A6A001;
     }
 
     #p3 {
-        text-align: center;
         font-size: 17px !important;
         line-height: 1rem;
     }
@@ -137,13 +132,16 @@ img {
         height: 80%;
         width: 80%;
     }
-} */
+}
 
 @media screen and (max-width: 1195px) {
     .main1 {
         margin-top: 10rem;
         grid-template-columns: repeat(auto-fill, minmax(390px, 1fr));
         padding-left: 4%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     #p1 {
@@ -167,5 +165,16 @@ img {
     #uncle {
         height: 80%;
         width: 80%;
+    }
+
+    #icons,
+    a,
+    img {
+        height: 1rem;
+
+    }
+
+    #icons {
+        gap: 0.7rem;
     }
 }
