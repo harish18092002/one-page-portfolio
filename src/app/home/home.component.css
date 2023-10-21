@@ -14,13 +14,23 @@ body {
     font-family: Syne;
     font-style: normal;
     font-weight: 400;
+}
 
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 100;
+    }
 }
 
 .main2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    animation: fade 2s ease-in-out 0s;
 
 }
 
@@ -29,6 +39,7 @@ body {
     text-align: center;
     height: 100vh;
     width: 90%;
+    animation: fade 2s ease-in-out 0s;
 }
 
 

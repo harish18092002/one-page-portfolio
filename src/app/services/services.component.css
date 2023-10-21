@@ -2,7 +2,17 @@
     height: auto;
     background-color: #131011;
     position: relative;
+    animation: fade 2s ease-in-out 0s;
+}
 
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 100;
+    }
 }
 
 .main {

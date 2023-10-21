@@ -8,6 +8,17 @@ body {
     position: relative;
     display: block;
     align-content: center;
+    animation: fade 2s ease-in-out 0s;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 100;
+    }
 }
 
 .main1 {
@@ -178,16 +189,6 @@ button {
     animation-delay: 2s;
     animation-duration: 35s;
 }
-
-/* .circles li:nth-child(10) {
-    left: 85%;
-    width: 150px;
-    height: 150px;
-    animation-delay: 0s;
-    animation-duration: 11s;
-} */
-
-
 
 @keyframes animate {
 
