@@ -45,22 +45,26 @@ body {
 
 
 #p1 {
+    font-weight: 300;
     font-size: 24px;
     font-family: 'Simonetta', serif;
 }
 
 #p2 {
+    font-weight: 400;
     font-size: 50px;
     font-family: 'Simonetta', serif;
 
 }
 
 #s1 {
+    font-weight: 500;
     color: #A6A001;
     font-family: 'Simonetta', serif;
 }
 
 #p3 {
+    font-weight: 300;
     font-size: 22px;
     line-height: 2rem;
     font-family: 'Simonetta', serif;
