@@ -96,7 +96,7 @@
 
 }
 
-#more {
+.more {
     margin-left: 0.5rem;
     display: flex;
     align-items: center;
@@ -115,6 +115,6 @@
 
 
 
-#more:hover {
+.more:hover {
     box-shadow: 2px 2px 8px #000000;
 }
