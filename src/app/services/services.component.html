@@ -4,7 +4,7 @@
         <div class="certi">
             <div *ngFor="let certificate of projects" class="certi-item">
 
-                <img [src]="certificate.imageUrl" />
+                <img [src]="certificate.imageUrl" [alt]="certificate.alt" />
                 <div class="description">
                     <span id="subhead">Technologies : </span><span id="desc">{{certificate.technologies}}</span>
                     <span id="subhead">About : </span><span id="desc">{{certificate.description}}</span>

@@ -3,7 +3,7 @@
         <p id="heading">Achievements</p>
         <div class="certi">
             <div *ngFor="let certificate of certificates" class="certi-item">
-                <img [src]="certificate.imageUrl" />
+                <img [src]="certificate.imageUrl" [alt]="certificate.alt" />
             </div>
         </div>
 
