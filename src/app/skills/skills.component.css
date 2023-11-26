@@ -3,7 +3,6 @@ body {
 }
 
 .parent {
-    /* height: auto; */
     background-color: #131011;
     position: relative;
     display: block;
@@ -34,7 +33,6 @@ body {
 #skills {
     padding-bottom: 2rem;
     color: #A6A001;
-    /* font-family: 'Seaweed Script', cursive; */
     font-family: 'Nothing You Could Do', cursive;
     font-size: 49px;
     font-style: italic;
@@ -63,8 +61,6 @@ button {
     text-align: center;
     border-radius: 10px;
     border: #A6A001;
-    /* font-family: 'Seaweed Script', cursive; */
-    /* font-family: 'Simonetta', serif; */
     font-family: 'Simonetta', serif;
     font-style: italic;
     font-size: 18px;
@@ -85,9 +81,7 @@ button {
 
 .images img {
     flex-grow: 1;
-    /* Adjust spacing between images */
     margin: 10px;
-    /* Adjust spacing between images */
 }
 
 
