@@ -9,7 +9,7 @@ import { SkillsComponent } from './skills/skills.component';
 import { CertificationComponent } from './certification/certification.component';
 import { ContactComponent } from './contact/contact.component';
 import { TimelineComponent } from './timeline/timeline.component';
-
+import { NgxTypedJsModule } from 'ngx-typed-js';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,10 +20,12 @@ import { TimelineComponent } from './timeline/timeline.component';
     CertificationComponent,
     ContactComponent,
     TimelineComponent
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    NgxTypedJsModule
 
   ],
   providers: [],

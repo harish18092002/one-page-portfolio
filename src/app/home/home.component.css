@@ -43,7 +43,6 @@ body {
 }
 
 
-
 #p1 {
     font-weight: 300;
     font-size: 24px;
@@ -61,6 +60,19 @@ body {
     font-weight: 500;
     color: #A6A001;
     font-family: 'Simonetta', serif;
+}
+
+.typehead {
+    font-weight: 400;
+    font-size: 50px;
+    font-family: 'Simonetta', serif;
+}
+
+.type {
+    font-weight: 500;
+    color: #A6A001;
+    font-family: 'Simonetta', serif;
+    display: inline-block;
 }
 
 #p3 {

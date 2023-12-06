@@ -4,10 +4,20 @@
     <div class="main1">
         <div class="main2">
             <h1 id="p1">Hey There,</h1>
-            <h2 id="p2">I’m <span id="s1">Harish</span>
-                <br>A
-                <span id="s1"> Full Stack Developer</span>
+            <h2 id="p2">
+                I’m <span id="s1">Harish</span>
             </h2>
+            <h2 class="typehead">
+                A
+                <span class="type">
+                    <ngx-typed-js
+                        [strings]="[' Full Stack Developer.', 'UI/UX Designer.', 'SEO Copywriter.' ,'Website Developer.']"
+                        [shuffle]="false" [typeSpeed]="70" [loop]="true" [backSpeed]="50">
+                        <span class="typing"></span>
+                    </ngx-typed-js>
+                </span>
+            </h2>
+
             <h3 id="p3">Are you in search of a remarkable website? As an experienced web designer, I provide
                 end-to-end
                 solutions. From
