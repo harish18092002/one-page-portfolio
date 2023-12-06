@@ -152,18 +152,6 @@ img {
         width: 80%;
         text-align: center;
     }
-
-    /* 
-    #icons,
-    a,
-    img {
-        height: 2.5rem;
-
-    }
-
-    #icons {
-        width: 40vh;
-    } */
 }
 
 @media screen and (max-width: 1195px) {
