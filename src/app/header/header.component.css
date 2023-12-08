@@ -30,6 +30,7 @@ body {
 }
 
 #logo {
+
     background: linear-gradient(to right, #fa709a 40%, #fee140 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
