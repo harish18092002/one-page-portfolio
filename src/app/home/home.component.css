@@ -207,9 +207,7 @@ img {
     }
 
     #uncle {
-        height: 80%;
-        width: 80%;
-        place-content: center;
+        display: none;
     }
 
     #icons,
