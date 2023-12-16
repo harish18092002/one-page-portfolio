@@ -36,9 +36,9 @@ export class CertificationComponent {
     },
     {
       title: 'Certificate 5',
-      imageUrl: '../../assets/certificates/webinar certificate_page-0001.jpg',
+      imageUrl: '../../assets/certificates/Mircrosoft_generative_ai.png',
       description: 'Description for Certificate 5',
-      alt: 'Certificate of attending webinar on AI and Machine Learning'
+      alt: 'Certificate of microsoft generative ai solutions'
 
     },
     {
