@@ -56,11 +56,10 @@ export class ServicesComponent {
     {
       title: 'Project 6',
       imageUrl: '../../assets/Projects/ETM_prject.png',
-      description: " I've developed a secure healthcare admin site, enabling doctors and nurses to efficiently manage patient records",
+      description: " I've built a Flutter ETM app for quick ambulance bookings during emergencies, ensuring timely assistance for patients in critical situations.",
       link: 'https://github.com/harish18092002/ETM_Flutter-project.git',
-      technologies: 'Angular,Uuid,NodeJs',
-      alt: 'Screenshot of Project 5 - I\'ve developed a secure healthcare admin site, enabling doctors and nurses to efficiently manage patient records, using Angular, Uuid, and Node.js.'
-
+      technologies: 'Flutter,Firebase',
+      alt: 'Screenshot of Project 6 - I \'ve built a Flutter ETM app for quick ambulance bookings during emergencies, ensuring timely assistance for patients in critical situations.'
     }
   ];
 
