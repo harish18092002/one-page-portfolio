@@ -23,6 +23,8 @@ export class SkillsComponent {
 
     { name: 'HTML', category: 'Front-End', src: '../../assets/skills/html.png' },
     { name: 'CSS', category: 'Front-End', src: '../../assets/skills/css.png' },
+    { name: 'GSAP', category: 'Front-End', src: '../../assets/skills/gsap-greensock.svg' },
+
     { name: 'Bootstrap', category: 'Front-End', src: '../../assets/skills/bootstrp.png' },
     { name: 'Tailwind CSS', category: 'Front-End', src: '../../assets/skills/tailwindcss.png' },
     { name: 'flutter', category: 'Front-End', src: '../../assets/skills/flutter.png' },
